@@ -1,0 +1,6 @@
+body { padding-top: 10px; }
+form { margin: 0; }
+ul { list-style-type: none; margin: 0; }
+#coverImage { display: none; }
+
+.center { float: none; margin-left: auto; margin-right: auto; }
