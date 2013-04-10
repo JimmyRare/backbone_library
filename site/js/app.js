@@ -8,8 +8,5 @@ $(document).ready(function() {
 	// Initialize
     new app.LibraryView();
 
-	// Upload button
-	$('#uploadBtn').on('click', function() {
-		$('#coverImage').trigger('click');
-	});
+
 });

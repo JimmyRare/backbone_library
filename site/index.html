@@ -20,8 +20,7 @@
 						<input class="span4" type="text" id="author" placeholder="Author" />
 						<input class="span4" type="text" id="releaseDate" placeholder="Release Date" />
 						<input class="span4" type="text" id="keywords" placeholder="Keywords" />
-						<button class="btn" id="uploadBtn">Upload Cover Image</button>
-						<input type="file" id="coverImage" /> <!-- Hidden -->
+						
 						<button class="btn btn-primary pull-right" id="add">Add</button>
 					</form>
 	
@@ -33,7 +32,7 @@
 		<!-- Book Template -->
 		<script id="bookTemplate" type="text/template">
 			<div class="well clearfix">
-		    <img src="<%= coverImage %>"/>
+		    
 		    <ul>
 		        <li><h3><%= title %></h3></li>
 		        <li><%= author %></li>
